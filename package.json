@@ -1,0 +1,35 @@
+{
+  "name": "snapterest",
+  "version": "1.0.0",
+  "description": "리액트 핵심정리 책 내용 follow-up",
+  "main": "app/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "정재남",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ReactJsStudy/snapterest"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.12.10",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-plumber": "^1.1.0",
+    "gulp-react": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-util": "^3.0.7",
+    "run-sequence": "^1.2.1",
+    "webpack": "^1.13.1",
+    "webpack-stream": "^3.2.0"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "snapkite-stream-client": "^1.0.3"
+  }
+}
